@@ -1,0 +1,77 @@
+h1 {
+  color: #FFA60A;
+  font-size: 50px;
+  text-align: right;
+  margin-top: 0px;
+}
+p:first-letter {
+  color: #FF0607;
+  font-size: 40px;
+}
+em {
+  color: white;
+  background-color: #068100;
+}
+p + h2 {
+  color: #FFA90C;
+}
+span {
+  font-weight: bold;
+}
+ul + h2 {
+  color: #2C0EFF;
+}
+.first {
+  color: #8D838F;
+}
+.second {
+color: #FF1A21;
+}
+.third {
+color: #1C8E2E;
+}
+table {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black; 
+  font-size: 25px; 
+}
+tr:nth-child(1) {
+  font-weight: bold;
+  text-align: center;
+}
+tr:nth-child(2) {
+font-weight: bold;
+text-align: center;
+}
+tr:nth-child(3) td:nth-child(1),
+tr:nth-child(4) td:nth-child(1),
+tr:nth-child(5) td:nth-child(1)
+{
+  color: orange;
+}
+tr:nth-child(3) td:nth-child(2),
+tr:nth-child(4) td:nth-child(2),
+tr:nth-child(5) td:nth-child(2) {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+tr:nth-child(3) td:nth-child(3),
+tr:nth-child(4) td:nth-child(3),
+tr:nth-child(5) td:nth-child(3) {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+tr:nth-child(3) td:nth-child(4),
+tr:nth-child(4) td:nth-child(4),
+tr:nth-child(5) td:nth-child(4) {
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+
+

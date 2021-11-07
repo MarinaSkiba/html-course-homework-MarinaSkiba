@@ -1,0 +1,21 @@
+ul {
+  font-size: 20px;
+}
+span {
+ display: inline-block;
+ transform: rotate(45deg);
+ color: #f70;
+}
+.news {
+  color: blue;
+}
+.yandex {
+  color: #f70;
+}
+.google {
+  color: #666;
+}
+span:hover {
+  display: inline-block;
+ transform: rotate(225deg);
+}
