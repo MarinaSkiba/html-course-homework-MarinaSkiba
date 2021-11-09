@@ -1,0 +1,31 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap' );
+body {
+  font-family: 'Oswald', sans-serif; 
+}
+ul li {
+  display: inline;
+}
+nav {
+  background-color: #A64DFE;
+  width: 1032px;
+}
+nav ul {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 11px 18px;
+  line-height: 40px;
+}
+ul.menu {
+  margin-left: 12px;
+}
+.mors {
+  float: right;
+  margin-right: 70px;
+}
+li a.travels:hover {
+  background-color: #EEEEEE;
+  color: #A7A4A1;
+}
