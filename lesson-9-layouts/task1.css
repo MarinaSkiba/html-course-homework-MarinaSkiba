@@ -39,8 +39,8 @@ span.green {
 }
 #red:checked ~ .red, 
 #green:checked ~ .green,
-#blue:checked ~ .blue  {
-   display: none;
+#blue:checked ~ .blue {
+  display: none;
 }
 #red:checked ~ label[for="red"] {
   color: rgba(100, 0, 0, 0.5);
