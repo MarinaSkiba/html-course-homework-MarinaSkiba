@@ -1,0 +1,115 @@
+body {
+  margin: 0 ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+}
+div {
+  float: left;
+  position: relative;
+}
+div.d2 {
+  border: 3px solid #EE8129;
+  max-width: 290px;
+  background-color: #EE8129;
+  border-radius: 4px;
+  margin: 30px 0px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 1;
+}
+div.d1 {
+  border: 1px solid #F2F3F4;
+  max-width: 290px;
+  background-color: #2BC2D5;
+  border-radius: 4px;
+  margin: 42px -2px 0px 20px;
+}
+div.d3 {
+  border: 1px solid #F2F3F4;
+  max-width: 290px;
+  background-color: #00B89A;
+  border-radius: 4px;
+  margin: 42px 0px 0px -2px;
+}
+h1 {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  margin: 25px 0;
+}
+div.container2 {
+  background-color: #ffffff;
+  text-align: center;
+  max-width: 290px;
+}
+h4 {
+  font-size: 25px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+p.number {
+  font-size: 23px;
+  padding-top: 0;
+  margin-top: 0;
+}
+strong {
+  font-size: 70px;
+}
+sup {
+  vertical-align: top;
+}
+ul {
+  list-style-type: none;
+  list-style-image: url( "arrow.png" );
+  list-style-position: inside;
+  margin: 20px 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container2 ul > li {
+  height: 23px;
+  text-align: left;
+  padding: 5px 30px;
+  margin: 2px;
+}
+a {
+  text-decoration: none;
+  color: #93979F;
+}
+li:nth-child(odd) {
+  background-color: #EDF5FD;
+}
+li:nth-child(even) {
+  background-color: #F5F5F6;
+}
+button {
+  background-color: #2F70A8;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  width: 250px;
+  height: 40px;
+  border: 1px solid #2F70A8;
+  border-radius: 4px;
+  border-bottom: 3px solid #13426B;
+  margin-bottom: 40px;
+}
+button:hover {
+  border: 10px solid #2F70A8;
+  cursor: pointer;
+}
+button.orange {
+  background-color: #EE8129;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  width: 250px;
+  height: 40px;
+  border: 1px solid #EE8129;
+  border-radius: 4px;
+  border-bottom: 3px solid #B3560B;
+  margin-bottom: 60px;
+}
+button.orange:hover {
+  border: 10px solid #EE8129;
+  cursor: pointer;
+}
