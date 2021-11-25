@@ -1,0 +1,9 @@
+body {
+  background-image: url("../images/plans-background.jpg");
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.plan_plus, 
+.plans_free,
+.plan_premium  
