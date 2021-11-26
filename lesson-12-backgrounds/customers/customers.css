@@ -1,1 +1,49 @@
-/* Write your code here */
+ article > img {
+  width: 800px;
+  -webkit-box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.97); 
+  box-shadow: 3px 3px 13px -3px rgba(0,0,0,0.97);
+  background-size: cover;
+}
+.customer_1, .customer_2 {
+  display: inline-block;
+  width: 100%;
+}
+.customer_text_1 {
+  float: right;
+  width: 300px;
+  text-align: right;
+  position: relative;
+  top: 250px;
+  right: 250px;
+}
+article.customer_1 > img {
+  float: left;
+  margin: 70px 10px;
+}
+article.customer_2 > img {
+  float: right;
+  margin: 70px 10px;
+}
+.customer_text_2 {
+  float: left;
+  width: 300px;
+  text-align: left;
+  position: relative;
+  top: 220px;
+  left: 190px;
+}
+h2 {
+  color: #DB3E2C;
+  margin-bottom: 2px;
+}
+.customer_text_1 > a,
+.customer_text_2 > a {
+  text-decoration: none;
+  color: #BBBBBB;
+  font-size: 12px;
+  margin: 1px;
+}
+.customer_text_1 > p,
+.customer_text_2 > p {
+  margin-top: 2px;
+}
