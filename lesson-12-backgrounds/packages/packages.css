@@ -1,0 +1,58 @@
+body {
+  background: url("../images/plans-background.jpg");
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #000;
+}
+.plan_plus,
+.plan_free,
+.plan_premium {
+  border: 3px solid #917875;
+  width: 75%;
+  background-color: rgb(168, 167, 164, 0.9);
+  float: left;
+  padding: 5px 20px;
+} 
+.plan_plus {
+  margin: 20px 0;
+  border-left: none;
+}
+.plan_free {
+  float: right;
+  right: 0;
+  margin: 40px 0;
+  border-right: none;
+  text-align: right;
+}
+.plan_premium {
+  float: left;
+  margin-top: 20px;
+  left: 0;
+  border-left: none;
+  background-color: rgb(144, 111, 106, 0.9);
+}
+.icon {
+  background-color: #D33F31;
+  border: 1px solid #a5352b;
+  color: #fff;
+  font-size: 10px;
+  padding: 3px;
+  width: min-content;
+  float: right;
+  margin-right: 10px;
+}
+p {
+  background-color: rgb(255, 255, 255, 0.8);
+  border: 2px solid rgb(0, 0, 0, 0.4);
+  padding: 4px;
+  color: #A4A4A4;
+  font-size: 15px;
+}
