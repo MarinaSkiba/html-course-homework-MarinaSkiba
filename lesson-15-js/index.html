@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS</title>
+</head>
+
+<body>
+  <script>
+    var firstName = prompt('Ваше имя?');
+    var lastName = prompt('Ваша фамилия?');
+    var middleName = prompt('Ваше отчество?');
+    var ageStr = prompt('Ваш возраст?');
+    var gender = confirm('Ваш пол - мужской?');
+    if (gender == true) {
+      alert = 'мужской';
+    }
+    else {
+      alert = 'женский';
+    }
+    var fullName = lastName + '' + firstName + '' + middleName;
+    var yearStr = 365;
+    /* var pension;
+     (pension == (age < 60) ? да : нет); */
+    alert('ваше ФИО: ' + lastName + '\n' +
+      'ваш возраст в годах: ' + ageStr + '\n' +
+      'ваш возраст в днях: ' + (ageStr * 365) + '\n' +
+      'через 5 лт вам будет: ' + (ageStr + 5) + '\n' +
+      'ваш пол: ' + gender + '\n');
+  </script>
+</body>
+
+</html>
