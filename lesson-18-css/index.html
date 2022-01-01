@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="general.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="wrapper_form">
+      <form action="#" class="wrapper_form_body">
+        <h2 class="form_title">Куда поехать?</h2>
+        <div class="form_item">
+          <label for="form_Where" class="form_label">Куда</label>
+          <input type="text" name="where" id="form_Where" class="form_input" placeholder="Амстердам">
+        </div>
+        <div class="form_item">
+          <label for="form_route" class="form_label">Откуда</label>
+          <input type="text" name="route" id="form_route" class="form_input" placeholder="Минск">
+        </div>
+        <div class="form_item-date">
+          <p class="form_label">Дата</p>
+          <label for="form_date" class="form_label">С</label>
+          <input type="date" name="date" id="form_date" class="form_input" placeholder="25.06.2021">
+          <label for="form_date" class="form_label">По</label>
+          <input type="date" name="date" id="form_date" class="form_input" placeholder="01.07.2021">
+        </div>
+        <div class="form_item">
+          <label for="form_number" class="form_label">Количество</label>
+          <input type="text" name="number" id="form_number" class="form_input" placeholder="2">
+        </div><br>
+        <button>Найти</button>
+</body>
+</html>
